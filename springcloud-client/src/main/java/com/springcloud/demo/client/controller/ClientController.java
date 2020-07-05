@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.springcloud.demo.client.entity.Client;
 import com.springcloud.demo.client.service.ClientService;
+import com.springcloud.demo.dto.ClientDto;
 import com.springcloud.demo.util.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

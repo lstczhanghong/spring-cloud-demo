@@ -47,7 +47,7 @@ public class Client implements Serializable {
      * 逻辑删除标志
      */
     @TableField("del_flag")
-    @TableLogic
+//    @TableLogic
     private Integer delFlag;
 
     /**
